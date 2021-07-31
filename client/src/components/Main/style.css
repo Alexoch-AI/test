@@ -1,0 +1,12 @@
+.details{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+}
+
+.css-table{
+  border: 1px solid black;
+   margin-bottom: 5px;
+   width: 500px;
+}
