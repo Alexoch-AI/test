@@ -66,8 +66,8 @@ function Person(props) {
                   pattern="^(\+7|7|8)?[\s\-]?\(?[489][0-9]{2}\)?[\s\-]?[0-9]{3}[\s\-]?[0-9]{2}[\s\-]?[0-9]{2}"
                 />
               </td>
-              <td className='td-style'>
-                <button onClick={submitHandlerRedaction}>Изменить!</button>
+              <td>
+                <button onClick={submitHandlerRedaction} style={{ marginLeft: '10px' }}>Изменить</button>
               </td>
             </>
             :

@@ -43,12 +43,12 @@ function Canvas() {
   }, [])
 
   return (
-    <>
+    <div>
       <canvas ref={canvasRef} width='600px' height='600px'
-        className='canvas-stars'
+        style={{ display: 'flex' }}
         onClick={handlerUpdateColor} />
       <canvas ref={canvasRef2} width='600px' height='50px' />
-    </>
+    </div>
   )
 }
 
